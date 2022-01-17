@@ -1,0 +1,20 @@
+@media (max-width: 900px) {
+	
+.data {
+	grid-template-columns: 1fr;
+}
+.data-1st,
+.data-2nd {
+	grid-template-rows: repeat(5, 1fr) 0;
+
+}
+	
+
+}
+@media (max-width: 600px) {
+
+.data-1st input,
+.data-2nd * {
+	grid-column: auto/ span 2 !important;
+}
+}
